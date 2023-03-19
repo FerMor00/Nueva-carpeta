@@ -1,0 +1,133 @@
+p {
+    margin: 0;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f2ea;
+    color: rgb(36, 26, 122);
+    font-weight: 600;
+  }
+
+
+
+  footer{
+    background-color:rgba(149, 193, 243, 0.336);
+    color:#384364;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 3%;
+}
+footer h1{
+    font-size: 32px;
+}
+footer h1,footer h2,.footer-nav a {
+    font-family: 'Aboreto', cursive;
+}
+footer h2{
+    font-size: 18px;
+}
+footer p{
+    font-family: 'EB Garamond', serif;
+}
+.p2{
+    
+    font-family: 'Brush Script MT';
+    color:#384364;
+    font-size: 80px;
+    text-indent: 30px;
+
+}
+
+.p3{
+    
+    font-family: 'Times New Roman';
+    color:#384364;
+    font-size: 50px;
+    text-indent: 240px;
+}
+
+.p4{
+    font-family: 'Times New Roman';
+    color:#384364;
+    font-size: 35px;
+    
+}
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+    background-color:rgba(149, 193, 243, 0.336);
+  }
+
+.p5{
+    font-family: 'Times New Roman';
+    color:#384364;
+    font-size: 20px;
+    
+}
+.p6{
+    font-family: 'Times New Roman';
+    color:#384364;
+    font-size: 15px;
+    
+}
+.img1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 80px;
+    width: 90%;
+    margin-right: 50px;
+}
+
+  body{
+    margin-top: 60px;
+    background-color: #f8f2ea;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .card-container > *:not(.circle-link) ,
+    .terminal {
+      width: 100%;
+    }
+
+    .card:not(.highlight-card) {
+      height: 16px;
+      margin: 8px 0;
+    }
+
+    .card.highlight-card span {
+      margin-left: 72px;
+    }
+
+    svg#rocket-smoke {
+      right: 120px;
+      transform: rotate(-5deg);
+    }
+  }
+
+  @media screen and (max-width: 575px) {
+    svg#rocket-smoke {
+      display: none;
+      visibility: hidden;
+    }
+  }
+
+

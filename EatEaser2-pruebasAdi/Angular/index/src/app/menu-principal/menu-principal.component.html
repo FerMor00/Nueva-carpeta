@@ -1,0 +1,153 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+                <a id="nombre">Eateaser Recipes</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Diarios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recetas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="producto">Productos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Log In</a>
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </nav>
+<div class="body-index">
+        <div id="menu-container">
+                <div id="menu">
+        </div>
+                <div id="portada">
+                        <div id="portadaA"class="portada-separacion">
+                                <h2 id="tituloA"class="separacion-titulo">C</h2>
+                        </div>
+        
+                
+                <div  id="portadaB" class="portada-separacion"> 
+                
+                        <h2 id="tituloB"class="separacion-titulo">H</h2>
+                    </div>
+                    <div  id="portadaC" class="portada-separacion">
+                        
+                            <h2 id="tituloC"class="separacion-titulo">E</h2>
+                            <h3 id="subtituloC">Eat<br>Easer</h3>
+                    </div>
+                    <div  id="portadaD" class="portada-separacion">
+                        
+                            <h2 id="tituloD"class="separacion-titulo">F</h2>
+                      
+                    </div>
+                </div>
+             
+       
+</div>
+
+<article class="data-scroll-container">
+        <section class="descripcion">
+                <div class="informacion-texto flex">
+                        <h1>Vida<br>Gastronomica</h1>
+                        <div class="informacion-paragraph">
+                                <div class="paragraph">
+                        <p>Bienvenido al Eateaser una aplicacion 5 estrellas para seleccionar recetas, especial para estudiantes y principiantes que buscan un punto de referencia para empezar a aprender a cocinar.</p>
+                </div>
+                        <img>
+                        </div>
+                </div>
+                <div   class="informacion-imagen">
+                        <img class='imagen-fondo'src="/assets/img/banner-index.jpg">
+                       <img class="thumbnail imagen-absoluta" src="/assets/img/upper-banner.jpg">
+                       <div class="imagen-enlace"><a>Navegar por la galeria</a></div>
+                       <div id="recuadroA" class="recuadro imagen-enlace"></div>
+                       <div id="recuadroB"class="recuadro imagen-enlace"></div>
+                </div>
+        </section>
+        <section class="descripcion2"><div class="informacion2-texto flex">
+                <h1>Diario</h1>
+                <div id="informacion-parrafo"><p id="subtitulo">Recetas</p><p>Estamos preparando nuevos contenidos para nuestro HSC Journal, con novedades y visiones del mundo de Santa Caterina y la Divina Costiera.</p></div>
+        </div>
+        <div class="informacion2-imagen flex"><img src="/assets/img/descripcionA.jpg"><img src="/assets/img/descripcionB.jpg"><img src="/assets/img/descripcionC.jpg"></div>
+</section>
+<section class="bannerA">
+        <div>
+                <h1>NUestros productos</h1>
+        </div>
+       
+        <div class="white-space">
+                
+        </div>
+        <div class="blue-space">
+                
+        </div>
+        <div class="photo-frase">
+                <div>
+           <p>
+                Cocina con tranquilidad desde la comodidad de tu casa, con recetas simplemente unicas, recetas para cada nivel de aprendizaje.</p>  
+               
+                <div class="light-container2"> </div>  <div class="bold-container"> </div> 
+                <md-button class="btn btn-danger" [routerLink]="['producto']">
+                        Productos
+                      </md-button> </div>
+        </div>
+</section>
+<section class="descripcion3">
+        <div class="descripcion3-fondo"></div>
+        <div class="descripcion3-titulo"><div class="light-container"><h1>Categorías</h1></div></div>
+        <div class="descripcion3-imagenes">
+                <div class="category">
+                <div class="bold-circle">
+                        <div class="light-circle"><img src="/assets/img/bebida.webp"></div>
+                </div>
+                <div class="category-text"><p>Bebidas</p></div></div>
+                <div class="category">
+                <div class="bold-circle">
+                        <div class="light-circle"><img src="/assets/img/desserts.webp"></div>
+                </div>
+                <div class="category-text"><p>Postres</p></div></div>
+                <div class="category">
+                <div class="bold-circle">
+                        <div class="light-circle"><img src="/assets/img/pastas.webp"></div>
+                </div>
+                <div class="category-text"><p>Pastas</p></div></div>
+                <div class="category">
+                <div class="bold-circle">
+                        <div class="light-circle"><img src="/assets/img/marisco.webp"></div>
+                </div>
+
+                <div class="category-text"><p>Mariscos</p></div></div>
+                <div class="category">
+                        <div class="bold-circle">
+                                <div class="light-circle"><img src="/assets/img/platosmayores.webp"></div>
+                        </div>
+                        <div class="category-text"><p>Platos Mayores</p></div></div>
+</div>
+
+</section>
+<section class="suscription">
+        <div class="boletin">
+                <img src="/assets/img/postal.png">
+                <h2>Suscribase a nuestro boletin de noticias</h2>
+                <input id='text-input' class="boletin-elemento botones" type="text" placeholder="Tu correo electronico">
+
+<div>               <input type="checkbox" ><label for="cbox2">Este es mi segundo checkbox</label></div>
+<p>Este campo es obligatorio</p>
+<input type="button" value="Suscribete">
+
+        </div>
+        <div class="marcas"><h2>Socios y marcas</h2><img id="logo-principal" src="/assets/img/logoA.png"><div class="marcas-logos">
+                <img src="/assets/img/logoB.png">  <img src="/assets/img/logoC.png">  <img src="/assets/img/logoD.png"> <img src="/assets/img/logoF.png">
+        </div></div>
+</section>
+
+</article>
